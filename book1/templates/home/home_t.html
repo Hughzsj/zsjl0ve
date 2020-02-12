@@ -1,0 +1,85 @@
+{%extends 'base.html'%}
+
+{% block title %}home_t{% endblock %}
+{% block style %}
+	<style>
+	
+	#main_l{
+		width: 250px;
+		height: 600px;
+		display: inline-block;
+		border-right: 2px solid black;
+		background-color: #bbbbbb;
+	}
+	#main_l .content_top{
+		width: 200px;
+		height: 250px;
+		margin: 20px 10px 0px 10px;
+		/*border: 1px solid red;*/
+		border-bottom: 1px solid red;
+	}
+	#main_l .content_bottom{
+		width: 200px;
+		height: 250px;
+		margin: 20px 10px;
+		/*border: 1px solid red;*/
+	}
+	#main_r{
+		/*background-color: red;*/
+		width: 948px;
+		height: 600px;
+		float: right;
+	}
+	#main_r .row{
+		margin-right: 0;
+		margin-left: 0;
+	}
+	#main_r .row .col-xs-6,#main_r .row .col-md-3{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#main_r .row .col-xs-6 .thumbnail,#main_r .row .col-md-3 .thumbnail{
+		margin-bottom: 10px;
+	}
+	</style>	
+{% endblock %}
+
+
+{% block main %}
+	<div id="main_l">
+		<div class="content_top">
+			<p><strong>图片</strong></p>
+		</div>
+		<div class="content_bottom">
+			<p><strong>文章</strong></p>
+		</div>
+	</div>
+	<div id="main_r">
+		<div class="row">
+  			
+  			<div class="col-xs-6 col-md-3">
+    			<a href="#" class="thumbnail">
+      				<img src="/static/images/w1.jpg" alt="...">
+    			</a>
+  			</div>
+  			<div class="col-xs-6 col-md-3">
+    			<a href="#" class="thumbnail">
+      				<img src="/static/images/w1.jpg" alt="...">
+    			</a>
+  			</div>
+  			<div class="col-xs-6 col-md-3">
+    			<a href="#" class="thumbnail">
+      				<img src="/static/images/w1.jpg" alt="...">
+    			</a>
+  			</div>
+  			<div class="col-xs-6 col-md-3">
+    			<a href="#" class="thumbnail">
+      				<img src="/static/images/w1.jpg" alt="...">
+    			</a>
+  			</div>
+		</div>	
+	</div>
+	<script>
+		
+	</script>
+{% endblock %}

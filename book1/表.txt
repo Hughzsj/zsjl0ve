@@ -1,0 +1,7 @@
+img:
+	title detail foreign_key(user) one_to_many(user)
+articla:
+	title detail foreign_key(user) one_to_many(user)
+user:
+	username password email
+book: 

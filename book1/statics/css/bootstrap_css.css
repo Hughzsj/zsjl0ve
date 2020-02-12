@@ -1,0 +1,17 @@
+/*.con_sty{
+	border:1px solid red;
+}*/
+.h3_1{
+	float: left;
+	margin-right: 8px;
+}
+.navbar_sty,.navbar_sty li{
+	height: 40px;
+}
+.navbar_sty li a{
+	height: 40px;
+	padding: 10px 15px;
+}
+.nav a{
+	color: #00ffff;
+}
